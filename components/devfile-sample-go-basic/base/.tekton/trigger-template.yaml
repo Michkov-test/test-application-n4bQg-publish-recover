@@ -33,7 +33,7 @@ spec:
       - name: git-url
         value: https://github.com/Michkov/devfile-sample-go-basic
       - name: output-image
-        value: quay.io/mkovarik/devfile-sample-go-basic:latest-$(tt.params.git-revision)
+        value: quay.io/mkovarik/devfile-sample-go-basic@sha256:4e57ba2dda2feeeba2527bd894be91ea4cb86ecc6d0981f8d98ede775b134183-$(tt.params.git-revision)
       - name: dockerfile
         value: docker/Dockerfile
       - name: path-context
